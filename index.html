@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Yanxi Hu — Robotics Engineering student at Zhejiang University." />
+  <title>Yanxi Hu | Robotics & Intelligent Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">YH<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="mailto:yanxihu1208@gmail.com">Get in touch <span>↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">ROBOTICS · LEARNING · CONTROL</p>
+        <h1>Building robots that<br><em>see, learn, and move.</em></h1>
+        <p class="lede">I’m <strong>Yanxi Hu</strong>, a Robotics Engineering Honors student at Zhejiang University. I work across robot perception, decision-making, and control, from simulation to real-world systems.</p>
+        <div class="hero-actions"><a class="button primary" href="#research">Explore my work <span>↓</span></a><a class="text-link" href="mailto:yanxihu1208@gmail.com">yanxihu1208@gmail.com <span>↗</span></a></div>
+      </div>
+      <div class="hero-card" aria-label="Profile summary">
+        <div class="orb"><div class="orb-core">YH</div></div>
+        <div class="hero-card-meta"><span>Based in</span><strong>Hangzhou, China</strong><span>Focus</span><strong>Robotics &amp; AI</strong></div>
+        <div class="status"><span class="dot"></span> Open to research conversations</div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading"><span class="section-number">01</span><h2>About me</h2></div>
+      <div class="about-grid">
+        <div><p class="large-copy">I am a first-year-to-junior-track Robotics Engineering Honors student at Zhejiang University, ranked <strong>1st out of 45</strong> in my major with a GPA of <strong>4.23 / 4.30</strong>.</p><p>My interests sit at the intersection of intelligent robots and physical interaction. I enjoy turning research ideas into reliable systems: designing the algorithm, building the simulator, and validating it on hardware.</p></div>
+        <div class="facts"><div><b>2023–2027</b><span>B.Eng. Robotics Engineering<br>Zhejiang University</span></div><div><b>4.23 / 4.30</b><span>GPA · top of major</span></div><div><b>CET-6 602</b><span>English proficiency</span></div></div>
+      </div>
+    </section>
+
+    <section id="research" class="section section-tint">
+      <div class="container"><div class="section-heading"><span class="section-number">02</span><h2>Research</h2><span class="heading-note">Selected work</span></div>
+        <div class="research-list">
+          <article class="research-item"><div class="research-index">01</div><div class="research-content"><div class="item-top"><span class="tag">REINFORCEMENT LEARNING · UAV</span><span class="date">Apr 2025 — May 2026</span></div><h3>Self-play reinforcement learning for UAV pursuit–evasion</h3><p>Designed a Prioritized PSRO strategy-generation method to mitigate catastrophic forgetting in cyclic games, and introduced FOV Curriculum Learning for partially observable pursuit. Bridged simulation and deployment through CTBR control interfaces and throttle-model fitting.</p><div class="item-footer"><span>Advisor · Assoc. Prof. Gao Fei, Zhejiang University</span><strong>SRTP Excellent Project · top 30%</strong></div></div></article>
+          <article class="research-item"><div class="research-index">02</div><div class="research-content"><div class="item-top"><span class="tag">PHYSICAL VISION · SYSTEM IDENTIFICATION</span><span class="date">Dec 2025 — Jul 2026</span></div><h3>Physical parameter identification from real-world videos</h3><p>Built a cross-domain robust representation using dense depth and optical flow to infer material parameters from videos of elastoplastic bodies. Contributed to real-data processing, 2AFC physical-consistency scoring, and result visualization for a submission to a top computer vision conference.</p><div class="item-footer"><span>Collaborator · Prof. Qixing Huang’s group, UT Austin</span><strong>Second author · submitted</strong></div></div></article>
+          <article class="research-item"><div class="research-index">03</div><div class="research-content"><div class="item-top"><span class="tag">SLAM · 3D RECONSTRUCTION</span><span class="date">Mar 2026 — Jun 2026</span></div><h3>Real-time visual SLAM under dynamic occlusion</h3><p>Led a project that linked 2D features to 3D Gaussian Splatting teacher signals and fine-tuned DINOv3 for more consistent cross-view features. The system improved same-location cosine similarity and slightly enhanced trajectory accuracy and reconstruction quality.</p><div class="item-footer"><span>Advisor · Prof. Zhang Yu, Zhejiang University</span><strong>Score · 91 / 100</strong></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container"><div class="section-heading"><span class="section-number">03</span><h2>Projects &amp; recognition</h2></div>
+      <div class="project-grid">
+        <article class="project-card featured"><span class="card-kicker">ROBOCUP SSL</span><h3>ZJUNlict Small-Size League</h3><p>Core team member working on asymmetric omnidirectional-wheel dynamics and control. Built a ROS 2–Gazebo high-fidelity simulator and replaced velocity control with LADRC-based torque control for high-speed maneuvering.</p><div class="project-meta"><span>2025 — 2026</span><strong>International 2nd place</strong></div></article>
+        <article class="project-card"><span class="card-kicker">ROBOTICS SYSTEMS</span><h3>Full-stack robot development</h3><p>Led end-to-end work on TurtleBot4 navigation, a color-collection mobile robot, ZJUONE six-axis arm kinematics and feedforward control, and a dual-C51 POV LED voice-and-IR jukebox.</p><div class="project-meta"><span>2024 — present</span><strong>Systems lead</strong></div></article>
+      </div>
+      <div class="awards"><div class="award"><b>2025–2026</b><span>Zhejiang University Zhukezhen Scholarship · university top 12</span></div><div class="award"><b>3×</b><span>National Scholarship &amp; Outstanding Student</span></div><div class="award"><b>2026</b><span>RoboCup SSL China &amp; Skills Challenge champion</span></div><div class="award"><b>1st</b><span>Major ranking · Robotics Engineering</span></div></div>
+    </section>
+
+    <section class="section section-dark"><div class="container skills-wrap"><div class="section-heading"><span class="section-number">04</span><h2>Toolkit</h2></div><div class="skills"><span>C / C++</span><span>Python</span><span>MATLAB</span><span>ROS / ROS 2</span><span>Gazebo</span><span>CoppeliaSim</span><span>Isaac Lab</span><span>SolidWorks</span><span>LaTeX</span></div></div></section>
+
+    <section id="contact" class="contact container"><p class="eyebrow">LET’S CONNECT</p><h2>Have a research idea<br><em>or a robot to build?</em></h2><a class="button primary" href="mailto:yanxihu1208@gmail.com">Start a conversation <span>↗</span></a></section>
+  </main>
+
+  <footer class="footer container"><span>© 2026 Yanxi Hu</span><div><a href="mailto:yanxihu1208@gmail.com">Email</a><a href="https://github.com/YIERQWQ" target="_blank" rel="noreferrer">GitHub</a></div></footer>
+</body>
+</html>
